@@ -1,0 +1,126 @@
+@media(max-width: 1171px){
+        .header .header-content {
+        display: flex;
+        justify-content: space-between;
+      }
+      .home .home-content   .home-center{
+        padding: 0 70px;
+      }
+    }
+ @media(max-width: 1100px){
+      .home{
+        height: 100%;
+      }
+      .home .home-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+    
+    }
+   @media(max-width: 980px){
+    .home .home-content .home-btns{
+      width: 100%;
+    }
+
+  }
+  @media(max-width: 860px){
+    .home .home-content   .home-center{
+      grid-template-columns: 1fr;
+      padding: 30px;
+    }
+    .home .home-content .home-btns{
+      width: 70%;
+    }
+  }
+   
+  @media(max-width: 800px){
+      .container{
+        width: 90%;
+      }.header-content{
+        grid-template-columns: 1fr 1fr;
+      }.header .header-content .nav-bar{
+        position: fixed;
+        top: 0;
+        right: -800px;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(90px);
+        background: var(--bs-gray-800);
+        transition: .5s;
+        z-index: 222;
+        font-size: 0.8rem;
+      }  
+      .header .header-content  .nav-bar ul{
+        padding: 0;   
+        display: flex;
+        flex-direction: column;
+        text-align: center;  
+      }
+      .header .header-content  .nav-bar ul li{
+        margin: 80px auto auto auto;
+      }.body-resume-content .header .header-content  .nav-bar ul li a,
+      .my-work-body .header .header-content  .nav-bar ul li a,
+      #section-home .header .header-content  .nav-bar ul li a{
+        color: white;
+      }
+      .header .header-content #btn-nav{
+        display: flex;
+        z-index: 2222;
+      }
+      .resume-content .resume-box{
+        grid-template-columns: 1fr;
+      }
+    
+      .footer .footer-content{
+        grid-template-columns: 1fr;
+      }
+      .contact-me .input-content{
+        width: 70%;
+      }  
+      button{
+        font-size: 0.9rem;
+        padding: 15px 20px;
+      } 
+      .home .home-content .content-photo .photo-home{
+        width: 250px;
+        height: 250px;
+      }   
+    }
+    @media(max-width: 630px){
+      .contact-me .input-content{
+        width: 80%;
+      }   
+      .home .home-content .content-photo .photo-home{
+        width: 200px;
+        height: 200px;
+      }      
+    }
+    @media(max-width: 500px){
+      .resume-content .resume-box , .professional-language{
+        padding: 10px;
+        margin: 20px;
+      }
+      .contact-me .input-content{
+        width: 90%;
+      } 
+      button{
+        font-size: 0.8rem;  
+        padding: 10px 15px; 
+      } 
+      .container{
+        width: 95%;
+      }
+      .professional-language  h2 {
+        font-size: 0.7rem;
+        text-align: center;
+        
+      }
+    }
+    @media(max-width: 400px){
+      .work-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+      }  
+    }
+
+  
